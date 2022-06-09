@@ -1,2 +1,5 @@
 수업 주소
 to2.kr/dJk
+프로그래머스도 SQL  잇네
+xampp 설치
+SQLyog 설치

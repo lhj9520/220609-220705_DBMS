@@ -91,7 +91,10 @@ INSERT INTO todo SET regDate=NOW(),performDate=NOW(),content='퇴근';
 # 데이터 조회 oderby 기본값 asc(오름차순) desc 내림차순
 SELECT * FROM todo;
 SELECT * FROM todo ORDER BY id;
+SELECT * FROM todo ORDER BY id DESC;
 SELECT id,content,etc FROM todo;
+SELECT DISTINCT(completeStatus) FROM todo; # 중복값 제거
+SELECT COUNT(*) FROM todo; # row 개수
 
 #데이터 수정
 UPDATE todo SET completeStatus = 1;

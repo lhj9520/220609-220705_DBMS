@@ -1,0 +1,4 @@
+xampp my.ini utf관련 설정 추가해줌
+
+SQLyog로 테이블, 데이터 관련 쿼리문법 실습
+

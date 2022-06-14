@@ -88,7 +88,7 @@ INSERT INTO todo VALUES(
 INSERT INTO todo SET regDate=NOW(),performDate=NOW(),completeStatus=1,content='운동';
 INSERT INTO todo SET regDate=NOW(),performDate=NOW(),content='퇴근';
 
-# 데이터 조회 oderby 기본값 asc(오름차순)
+# 데이터 조회 oderby 기본값 asc(오름차순) desc 내림차순
 SELECT * FROM todo;
 SELECT * FROM todo ORDER BY id;
 SELECT id,content,etc FROM todo;

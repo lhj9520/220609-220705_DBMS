@@ -95,6 +95,7 @@ SELECT * FROM todo ORDER BY id DESC;
 SELECT id,content,etc FROM todo;
 SELECT DISTINCT(completeStatus) FROM todo; # 중복값 제거
 SELECT COUNT(*) FROM todo; # row 개수
+SELECT COUNT(etc) FROM todo; # 집계함수는 null값 계산 안함
 
 #데이터 수정
 UPDATE todo SET completeStatus = 1;
